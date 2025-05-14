@@ -47,6 +47,7 @@ fun LegacyXmlView() {
         }
     )
 }
+```
 
 ## ✅ Screenshot
 <p align="center">
