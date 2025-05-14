@@ -50,9 +50,9 @@ fun LegacyXmlView() {
 ```
 
 ## ✅ Screenshot
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/bde83299-c4ad-4739-beb3-e9a78426f14e" width="600"/>
-</p>
+https://github.com/user-attachments/assets/d02326f4-5414-42f8-be19-481616769f16
+
+
 
 
 
