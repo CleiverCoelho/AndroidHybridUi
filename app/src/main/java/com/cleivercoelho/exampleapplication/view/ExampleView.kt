@@ -4,6 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.cardview.widget.CardView
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -22,7 +23,7 @@ class ExampleXMLCardView @JvmOverloads constructor(
 
     init {
         // Inflate the XML layout
-        inflate(context, R.layout.example_xml_layout, this)
+        inflate(context, R.layout.main_xml_recycler_view, this)
 
         // Set up the ComposeView within the layout
         findViewById<ComposeView>(R.id.exampleComposeView).setContent {
@@ -37,7 +38,9 @@ class ExampleXMLCardView @JvmOverloads constructor(
 // Example composable function
 @Composable
 fun ComposableFunction(viewModel: ViewModel) {
-    Column {
+    Column(
+        modifier = Modifier.fillMaxSize()
+    ) {
         Greeting("From XML layout inflater")
     }
 }
