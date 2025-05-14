@@ -49,4 +49,9 @@ fun LegacyXmlView() {
 }
 
 ## ✅ Screenshot
-https://github.com/user-attachments/assets/c99dfc46-182a-41ce-aaa1-eb734b269550
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bde83299-c4ad-4739-beb3-e9a78426f14e" width="600"/>
+</p>
+
+
+
